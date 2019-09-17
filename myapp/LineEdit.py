@@ -5,5 +5,5 @@ class LineEdit(QLineEdit):
     def __int__(self):
         super().__init__()
 
-    def custom(self):
-        print(self.text())
+    def lineEditText(self):
+        print(self.text(), "jaja")
